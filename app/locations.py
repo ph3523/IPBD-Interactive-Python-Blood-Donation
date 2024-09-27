@@ -5,10 +5,13 @@ import json
 from colorama import init, Fore, Style
 from messages import clear_screen
 
+def load_locations():
+    with open('./data/locations.json', 'r', encoding='utf-8') as file:
+        return json.load(file)
+
 def list_locations():
     clear_screen()
-    with open('./data/locations.json', 'r', encoding='utf-8') as file:
-        locations = json.load(file)
+    locations = load_locations()
 
     print(Fore.RED + "=" * 60)
     print(Fore.RED + "          Locais de Doação de Sangue")
