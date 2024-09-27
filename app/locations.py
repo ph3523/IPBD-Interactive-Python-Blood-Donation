@@ -7,7 +7,7 @@ from messages import clear_screen
 
 def list_locations():
     clear_screen()
-    with open('./data/locations.json', 'r') as file:
+    with open('./data/locations.json', 'r', encoding='utf-8') as file:
         locations = json.load(file)
 
     print(Fore.RED + "=" * 60)
