@@ -20,7 +20,6 @@ def list_locations():
         print(Style.BRIGHT + f"Telefone: {location['phone']}")
         print(Style.BRIGHT + f"Estado: {location['state']}")
         print(Style.BRIGHT + f"Horário de Funcionamento: {location['hours']}")
-        print(Style.BRIGHT + f"Observações: {location['notes']}")
         print(Fore.RED + "-" * 60)
 
     input("\nPressione Enter para voltar ao Menu Principal...")

@@ -1,19 +1,51 @@
 [
     {
-        "name": "Fundação Pró-Sangue Hemocentro de São Paulo",
-        "address": "RAv. Dr. Enéas Carvalho de Aguiar, 155 - 1º andar",
-        "phone": "(11) 4573-7800",
-        "state": "SP",
-        "hours": "Seg-Sex 8h-17h30, Sáb 8h-16h",
-        "notes": "Estacionamento gratuito para doadores"
+        "name": "Centro de Hematologia e Hemoterapia do Ceará",
+        "address": "Av. José Bastos, 3390 - Rodolfo Teófilo",
+        "phone": "(85) 3208-0800",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-17h30, Sáb 7h-16h e Dom 7h-13h"
     },
     {
-        "name": "Hemocentro Rio de Janeiro",
-        "address": "Av. Presidente Vargas, 1997",
-        "phone": "(21) 2508-1688",
-        "state": "RJ",
-        "email": "contato@hemocentrorj.org.br",
-        "hours": "Seg-Sex 8h-17h",
-        "notes": "Próximo ao metrô"
+        "name": "Hemoce Posto De Coleta Praça Das Flores",
+        "address": "Av. Desembargador Moreira, sn- Aldeota",
+        "phone": "(85) 3101.5293",
+        "state": "Ce",
+        "hours": "Ter-Sab 7h-13h e 14h-16h"
+    },
+    {
+        "name": "Hemocentro Regional De Crato",
+        "address": "Rua Coronel Antônio Luís, 1.111 - Bairro: Pimenta",
+        "phone": "(88) 3102-1261",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-17h30"
+    },
+    {
+        "name": "Hemonúcleo De Juazeiro Do Norte",
+        "address": "Rua Beata Maria de Araújo, 30 - Bairro: Romeirão",
+        "phone": "(88) 3102-1171",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-17h, Sáb 12h-17h"
+    },
+    {
+        "name": "Hemocentro Regional De Iguatu",
+        "address": "Rua: Edilson de Melo Távora, s/n - Bairro: Esplanada II",
+        "phone": "(88) 3581-9408",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-17h15"
+    },
+    {
+        "name": "Hemocentro Regional De Quixadá",
+        "address": "Av. Francisco Almeida Pinheiro, 2340, Planalto Universitário",
+        "phone": "(88) 99654-2246",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-17h"
+    },
+    {
+        "name": "Hemocentro Regional De Sobral",
+        "address": "Rua José Maria Alverne, 383 - Bairro Centro",
+        "phone": "(88) 3677-4627",
+        "state": "Ce",
+        "hours": "Seg-Sex 7h-18h e Sáb 8h-12h"
     }
 ]
