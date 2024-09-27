@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Fundação Pró-Sangue Hemocentro de São Paulo",
+        "address": "RAv. Dr. Enéas Carvalho de Aguiar, 155 - 1º andar",
+        "phone": "(11) 4573-7800",
+        "state": "SP",
+        "hours": "Seg-Sex 8h-17h30, Sáb 8h-16h",
+        "notes": "Estacionamento gratuito para doadores"
+    },
+    {
+        "name": "Hemocentro Rio de Janeiro",
+        "address": "Av. Presidente Vargas, 1997",
+        "phone": "(21) 2508-1688",
+        "state": "RJ",
+        "email": "contato@hemocentrorj.org.br",
+        "hours": "Seg-Sex 8h-17h",
+        "notes": "Próximo ao metrô"
+    }
+]
