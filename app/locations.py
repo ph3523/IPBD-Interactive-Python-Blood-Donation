@@ -13,16 +13,16 @@ def list_locations():
     clear_screen()
     locations = load_locations()
 
-    print(Fore.RED + "=" * 60)
+    print(Fore.RED + "=" * 50)
     print(Fore.RED + "          Locais de Doação de Sangue")
-    print(Fore.RED + "=" * 60)
+    print(Fore.RED + "=" * 50)
     print(Style.BRIGHT + "\nEncontre o local de doação mais próximo de você:")
     for location in locations:
-        print(Style.BRIGHT + f"\nNome: {location['name']}")
-        print(Style.BRIGHT + f"Endereço: {location['address']}")
-        print(Style.BRIGHT + f"Telefone: {location['phone']}")
-        print(Style.BRIGHT + f"Estado: {location['state']}")
-        print(Style.BRIGHT + f"Horário de Funcionamento: {location['hours']}")
+        print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"\nNome: {location['name']}")
+        print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"Endereço: {location['address']}")
+        print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"Telefone: {location['phone']}")
+        print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"Estado: {location['state']}")
+        print(Style.BRIGHT + Fore.LIGHTCYAN_EX + f"Horário de Funcionamento: {location['hours']}")
         print(Fore.RED + "-" * 60)
 
     input("\nPressione Enter para voltar ao Menu Principal...")
