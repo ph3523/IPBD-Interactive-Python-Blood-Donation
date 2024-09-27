@@ -4,6 +4,7 @@ from elegilibility import elegebility_check
 from procedures import display_procedures
 from locations import list_locations
 from tips import display_tips
+from quiz import display_quiz
 import time
 
 
@@ -44,7 +45,7 @@ def handler_menu():
                 display_tips()
             elif choice == "5":
                 # Chame a função para fazer um quiz sobre doação de sangue
-                pass
+                display_quiz()
             elif choice == "6":
                 goodbye_message()
                 break

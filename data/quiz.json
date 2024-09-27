@@ -1,0 +1,95 @@
+{
+    "quiz": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual é a idade mínima para doar sangue no Brasil?",
+          "opcoes": [
+            "16 anos",
+            "18 anos",
+            "21 anos",
+            "25 anos"
+          ],
+          "resposta_correta": "16 anos"
+        },
+        {
+          "id": 2,
+          "pergunta": "Quantas horas de sono são recomendadas antes da doação de sangue?",
+          "opcoes": [
+            "4 horas",
+            "6 horas",
+            "8 horas",
+            "10 horas"
+          ],
+          "resposta_correta": "6 horas"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual é a quantidade aproximada de sangue coletada em uma doação?",
+          "opcoes": [
+            "200 ml",
+            "350 ml",
+            "450 ml",
+            "550 ml"
+          ],
+          "resposta_correta": "450 ml"
+        },
+        {
+          "id": 4,
+          "pergunta": "Após doar sangue, por quanto tempo deve-se evitar exercícios físicos intensos?",
+          "opcoes": [
+            "6 horas",
+            "8 horas",
+            "12 horas",
+            "24 horas"
+          ],
+          "resposta_correta": "12 horas"
+        },
+        {
+          "id": 5,
+          "pergunta": "É permitido doar sangue após consumir alimentos gordurosos?",
+          "opcoes": [
+            "Sim, sem restrições",
+            "Sim, mas apenas até 1 hora antes da doação",
+            "Não, deve-se evitar alimentos gordurosos nas 4 horas que antecedem a doação",
+            "Sim, se for em pequena quantidade"
+          ],
+          "resposta_correta": "Não, deve-se evitar alimentos gordurosos nas 4 horas que antecedem a doação"
+        },
+        {
+          "id": 6,
+          "pergunta": "Quantas vezes um homem pode doar sangue em um ano?",
+          "opcoes": [
+            "3 vezes",
+            "4 vezes",
+            "5 vezes",
+            "6 vezes"
+          ],
+          "resposta_correta": "4 vezes"
+        },
+        {
+          "id": 7,
+          "pergunta": "Quantas vezes uma mulher pode doar sangue em um ano?",
+          "opcoes": [
+            "2 vezes",
+            "3 vezes",
+            "4 vezes",
+            "5 vezes"
+          ],
+          "resposta_correta": "3 vezes"
+        },
+        {
+          "id": 8,
+          "pergunta": "Qual é o peso mínimo para uma pessoa estar apta a doar sangue?",
+          "opcoes": [
+            "45 kg",
+            "50 kg",
+            "55 kg",
+            "60 kg"
+          ],
+          "resposta_correta": "50 kg"
+        }
+      ]
+    }
+  }
+  
