@@ -1,8 +1,9 @@
 from messages import clear_screen, goodbye_message
 from colorama import init, Fore, Style
 from elegilibility import elegebility_check
-from locations import list_locations
 from procedures import display_procedures
+from locations import list_locations
+from tips import display_tips
 import time
 
 
@@ -15,8 +16,9 @@ def menu():
     print(Style.BRIGHT + "1 - Verificar se você está apto para doar sangue")
     print(Style.BRIGHT + "2 - Encontrar locais de doação de sangue")
     print(Style.BRIGHT + "3 - Aprender sobre o processo de doação de sangue")
-    print(Style.BRIGHT + "4 - Fazer um quiz sobre doação de sangue")
-    print(Style.BRIGHT + "5 - Sair do programa")
+    print(Style.BRIGHT + "4 - Visualizar dicas úteis sobre doação de sangue")
+    print(Style.BRIGHT + "5 - Fazer um quiz sobre doação de sangue")
+    print(Style.BRIGHT + "6 - Sair do programa")
 
     try:
         choice = input("\nDigite o número da opção desejada: ")
@@ -38,9 +40,12 @@ def handler_menu():
                 # Chame a função para aprender sobre o processo de doação
                 display_procedures()
             elif choice == "4":
+                # Chame a função para vizualizar dicas uteis sobre doação de sangue
+                display_tips()
+            elif choice == "5":
                 # Chame a função para fazer um quiz sobre doação de sangue
                 pass
-            elif choice == "5":
+            elif choice == "6":
                 goodbye_message()
                 break
             else:
