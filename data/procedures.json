@@ -1,0 +1,33 @@
+{
+    "procedimentos_de_doacao": {
+      "preparacao": {
+        "hidratacao": "Beber ao menos 500 ml de água ou suco algumas horas antes da doação para evitar desidratação.",
+        "alimentacao": "Comer bem nas horas que antecedem a doação, evitando alimentos gordurosos nas 4 horas anteriores.",
+        "descanso": "Dormir ao menos 6 horas na noite anterior.",
+        "documentacao": "Levar um documento oficial com foto, como RG, CNH ou passaporte.",
+        "triagem_clinica": {
+          "peso": "Avaliação do peso mínimo permitido.",
+          "pressao_arterial": "Verificação da pressão arterial.",
+          "temperatura_corporal": "Medida da temperatura corporal.",
+          "hemoglobina": "Teste de hemoglobina para garantir níveis adequados.",
+          "historico_medico": "Entrevista sobre histórico médico, uso de medicamentos e viagens recentes."
+        }
+      },
+      "coleta": {
+        "posicionamento": "Doador é acomodado em uma cadeira reclinável.",
+        "limpeza": "Higienização da área do braço com antisséptico.",
+        "puncao": "Uso de agulha estéril e descartável para a coleta de sangue.",
+        "quantidade_coletada": "Aproximadamente 450 ml de sangue coletado.",
+        "tempo_de_coleta": "Dura de 8 a 12 minutos, dependendo do fluxo sanguíneo.",
+        "monitoramento": "Monitoramento constante durante todo o processo."
+      },
+      "cuidados_pos_doacao": {
+        "repouso": "Doador deve permanecer sentado ou deitado por alguns minutos após a doação.",
+        "hidratacao_alimentacao": "Lanche leve e bebidas como água ou suco são oferecidos após a doação.",
+        "atividades_intensas": "Evitar atividades físicas pesadas e levantar peso nas 12 horas seguintes.",
+        "protecao_local_puncao": "Manter o curativo no local da punção por ao menos 4 horas.",
+        "reidratacao": "Continuar bebendo bastante líquido nas horas seguintes.",
+        "atencao_sintomas": "Em caso de tontura, fraqueza ou sangramento persistente, procurar ajuda médica."
+      }
+    }
+  }
