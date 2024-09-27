@@ -2,6 +2,7 @@ from messages import clear_screen, goodbye_message
 from colorama import init, Fore, Style
 from elegilibility import elegebility_check
 from locations import list_locations
+from procedures import display_procedures
 import time
 
 
@@ -35,7 +36,7 @@ def handler_menu():
                 list_locations()
             elif choice == "3":
                 # Chame a função para aprender sobre o processo de doação
-                pass
+                display_procedures()
             elif choice == "4":
                 # Chame a função para fazer um quiz sobre doação de sangue
                 pass
